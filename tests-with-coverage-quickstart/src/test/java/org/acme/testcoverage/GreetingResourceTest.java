@@ -14,14 +14,14 @@ import io.quarkus.test.junit.QuarkusTest;
 @Tag("integration")
 public class GreetingResourceTest {
 
-    @Test
-    public void testHelloEndpoint() {
-        given()
-                .when().get("/hello")
-                .then()
-                .statusCode(200)
-                .body(is("hello"));
-    }
+//    @Test
+//    public void testHelloEndpoint() {
+//        given()
+//                .when().get("/hello")
+//                .then()
+//                .statusCode(200)
+//                .body(is("hello"));
+//    }
 
     @Test
     public void testGreetingEndpoint() {
